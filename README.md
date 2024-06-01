@@ -164,7 +164,7 @@ picture1 =
 
 - Example1
 
-```haskell
+```
 ghci> pprint $ fill picture1 (7, 5)
 ....................
 ....................
@@ -185,7 +185,7 @@ ghci> pprint $ fill picture1 (7, 5)
 
 - Example2
 
-```haskell
+```
 ghci> pprint $ fill picture1 (0, 0)
 ********************
 ********************
@@ -206,7 +206,7 @@ ghci> pprint $ fill picture1 (0, 0)
 
 - Example3
 
-```haskell
+```
 ghci> pprint . invert_color $ fill picture1 (0, 0)
 ....................
 ....................
